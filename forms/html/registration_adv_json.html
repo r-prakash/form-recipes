@@ -1,0 +1,61 @@
+<HTML>
+<TITLE>Advanced Registration Web Form - 2</TITLE>
+<head>
+    <link rel="stylesheet" href="/forms/styles/nav.css" type="text/css">
+    <link rel="stylesheet" href="/forms/styles/registration_adv.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/forms/js/misc.js"></script>
+    <script src="/forms/js/registration_adv_json.js"></script>
+</head>
+<BODY>
+
+<div class="topnav" id="topnav_id">
+  <a class="active" href="/forms/html/home.html">Home</a>
+  <a href="/forms/html/registration.html">Basic</a>
+  <a href="/forms/html/registration_adv.html">Advanced 1</a>
+  <a href="/forms/html/registration_adv_json.html">Advanced 2</a>
+  <a href="/forms/html/registration_adv_json_mixed.html">Advanced 3</a>
+  <a href="/forms/html/about.html">About</a>
+</div>
+
+<div class="contents">
+<h2 class="heading_1">Advanced Registration Form - 2</h2>
+<p>
+<h3>Registration form which posts JSON data using jQuery AJAX</h3>
+</p>
+
+<div>
+    <div id="row" class="row_class">
+        <span class="label">First Name : </span>
+        <INPUT type="text" name="first_name">
+    </div>
+    <br>
+    <div id="row" class="row_class">
+        <span class="label">Last Name : </span>
+        <input type="text" name="last_name">
+    </div>
+    <br>
+    <div id="row" class="row_class">
+        <span class="label">Sex: </span>
+        <input type="radio" name="sex" value="M" checked="checked">
+        <label for="sex:M">Male</label>
+        <input type="radio" name="sex" value="F">
+        <label for="sex:F">Female</label>
+    </div>
+    <br>
+    <div id="row" class="row_class">
+        <span class="label">Email: </span>
+        <input type="email" name="email">
+    </div>
+    <br>
+    <div id="row" class="row_class">
+        <span class="label">Phone Number:</span>
+        <input type="text" name="phone">
+    </div>
+    <br>
+    <input type="button" id="register_button" value="Register">
+</div>
+</div>
+</BODY>
+</HTML>
+
