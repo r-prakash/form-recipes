@@ -1,5 +1,5 @@
 # form-recipes
-Various Form recipes in HTML with server side processing php
+Various Form recipes in HTML with server side processing in php
 # Pre-requisites
 mysql
 
